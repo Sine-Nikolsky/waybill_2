@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2f8f4ff-76af-45a8-bc87-f775ceff2c43">
+  <producedTypes>
+    <refType typeId="c3f301e5-9b4f-4701-b2ff-ec5be5ac40c2" valueTypeId="d2d9a9ee-0f98-43a7-9f0f-a5f65bcabb7a"/>
+    <listType typeId="753904f8-794e-4266-b9a5-3413013aceba" valueTypeId="e4f25231-9876-487a-b0cd-c9b18fcc51ef"/>
+    <managerType typeId="7e758727-f432-452a-8f72-98de8d265d16" valueTypeId="fb3a1122-1bb0-40a4-b832-fe57c528e37d"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ВидыАвтотранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды автотранспорта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da7ed277-12fd-4116-8c5f-96553663ea44">
+    <name>ОсновнойТранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной транспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0817de6-8083-43de-93c8-08c58c09acac">
+    <name>ПрицепыОборудованиеБезТопливногоБака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прицепы и прочее оборудование без топливного бака</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24f8189c-3266-46f1-a828-caf3d84f117f">
+    <name>ПрицепыОборудованиеСТопливнымБаком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прицепы и прочее оборудование с топливным баком</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

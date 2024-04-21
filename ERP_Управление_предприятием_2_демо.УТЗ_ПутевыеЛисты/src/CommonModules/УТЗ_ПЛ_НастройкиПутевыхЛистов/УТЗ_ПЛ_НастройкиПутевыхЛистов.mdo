@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f2d1e80-d6af-4a9c-985a-3eafc47a1baf">
+  <name>УТЗ_ПЛ_НастройкиПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>УТЗ п л настройки путевых листов</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

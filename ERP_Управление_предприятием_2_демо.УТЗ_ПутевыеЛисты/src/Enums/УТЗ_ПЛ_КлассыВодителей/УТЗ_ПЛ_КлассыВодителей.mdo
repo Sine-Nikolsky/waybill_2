@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c093858f-1e89-4b02-acd0-0d2cfafefdb2">
+  <producedTypes>
+    <refType typeId="8333ea20-e4df-4e9f-9bb5-e86509279f95" valueTypeId="e1d2394f-bb22-48c6-a4e8-547d6ee2508c"/>
+    <listType typeId="3048a555-157e-4918-bfe7-9f37cf7c900d" valueTypeId="ebb9e0af-a96a-4c70-91fc-7b162793ccc1"/>
+    <managerType typeId="c27f6cce-9303-452e-8e5d-2fc5590aa711" valueTypeId="fdd5fd3c-bd8d-4a95-8f7b-e3f7a1d6d361"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_КлассыВодителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы водителей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="20bd218b-2634-4e44-b405-e3cf7e6b8cf9">
+    <name>Класс1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 класс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e37ddb7e-7406-430a-b5c3-5ed6f78c3bc4">
+    <name>Класс2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 класс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84635704-c2e9-4df3-a5fa-441115f7aac5">
+    <name>Класс3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 класс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

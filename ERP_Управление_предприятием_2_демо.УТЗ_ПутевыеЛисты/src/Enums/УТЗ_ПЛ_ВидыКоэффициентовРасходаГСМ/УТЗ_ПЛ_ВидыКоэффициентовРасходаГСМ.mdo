@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55fbcf1c-269f-4b18-811e-a08cb3a5d618">
+  <producedTypes>
+    <refType typeId="63401998-4026-4bf6-bfca-a0541ef01c09" valueTypeId="76967f3a-bc1d-44cd-a40a-28f2b28548a5"/>
+    <listType typeId="f3da1ecf-2e67-4d3d-a82a-0740966b36bc" valueTypeId="a1e7adcb-fb24-4599-a055-de3658dd12ad"/>
+    <managerType typeId="dcd1ea09-933a-48a4-a053-e58fa5625c60" valueTypeId="8a50d0db-a604-442e-af01-5e5dd19d40e9"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ВидыКоэффициентовРасходаГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды коэффициентов расхода ГСМ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4feaecb1-94af-469a-b4b5-ffa20dd01d5e">
+    <name>КоэффициентНаселенногоПункта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент населенного пункта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39596ca0-8052-4465-bc44-41a00b26185e">
+    <name>КоэффициентКлассаДороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент класса дороги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c16e9de7-c573-4984-ba93-5fb5ca0e8c6f">
+    <name>КоэффициентВозрастаИПробега</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент возраста и пробега</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d7b2368-d6b7-4fd3-a649-3beb0e282868">
+    <name>КоэффициентГорнойМестности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент горной местности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad7126c3-eb2b-4691-bd8f-71d1074d03d7">
+    <name>КоэффициентКондиционера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент кондиционера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8de0435-d1c5-4a3c-bb81-6c6a282862b7">
+    <name>СезонныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезонный коэффициент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

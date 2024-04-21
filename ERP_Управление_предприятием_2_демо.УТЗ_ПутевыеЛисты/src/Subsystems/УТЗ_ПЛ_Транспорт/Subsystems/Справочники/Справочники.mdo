@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2e6ffec-5091-4ec0-b179-95c6ca8db3e8">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.УТЗ_ПЛ_Автотранспорт</content>
+  <content>Catalog.УТЗ_ПЛ_Топливо</content>
+  <content>Catalog.УТЗ_ПЛ_КоэффициентыРасходаТоплива</content>
+  <content>Catalog.УТЗ_ПЛ_МоделиАвтотранспорта</content>
+  <content>Catalog.УТЗ_ПЛ_ТопливныеКарты</content>
+  <content>Catalog.УТЗ_ПЛ_Водители</content>
+  <content>Catalog.УТЗ_ПЛ_ПунктыМаршрута</content>
+  <content>Catalog.УТЗ_ПЛ_Справочник</content>
+  <parentSubsystem>Subsystem.УТЗ_ПЛ_Транспорт</parentSubsystem>
+</mdclass:Subsystem>

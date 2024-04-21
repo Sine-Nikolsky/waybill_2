@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33da3777-acf3-4277-8c29-af6327fc2aba">
+  <producedTypes>
+    <selectionType typeId="404b91fa-87e3-458f-9a38-495fa7825810" valueTypeId="8ad59e89-f70f-4140-87e4-25b7b20dccbc"/>
+    <listType typeId="42533dad-fffa-406a-b0fb-edd02b91fd4e" valueTypeId="a83fbb28-2302-48c9-9ddd-c845b458ffc7"/>
+    <managerType typeId="89ec0a19-74a7-4e73-9c98-78ddfe48b8e6" valueTypeId="9fc83cca-1806-4ae8-b9db-3c24bc6d60a3"/>
+    <recordSetType typeId="d3cb06e4-72d7-4750-85f0-49faa660cda1" valueTypeId="ab8344b7-a189-4eb8-9b49-a3d5c266bb40"/>
+    <recordKeyType typeId="1afaec83-1d95-431c-b04a-99f4d714f40a" valueTypeId="2da65a6c-8e18-4cb5-ba38-f7b6b2dbbec2"/>
+    <recordType typeId="c6418539-784e-475b-abf4-aabd52f47712" valueTypeId="6c3f782e-9199-4500-bb44-0cfc09b3adc7"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_МоточасыАвтотранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моточасы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b59d6479-b12c-4ca1-8af3-3b92c20805a7">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="d6292363-62b1-423b-9bab-d4381577270d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="87ffae04-6970-4980-934f-5dfe66b14fd2">
+    <name>Автотранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автотранспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_Автотранспорт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce7a9a43-0c37-45de-b745-eb9dcbf928ed">
+  <producedTypes>
+    <objectType typeId="c2d287dd-26bb-4230-b7d9-bcddd52ed8f2" valueTypeId="d26aa22a-09bc-4a56-8e28-600e47987c94"/>
+    <refType typeId="50c17514-27f2-456f-a832-1e432126deae" valueTypeId="0cffceb5-df53-4865-b142-0f0d68a72fc4"/>
+    <selectionType typeId="fc715503-7cc3-42ad-82af-6f0147d72fdc" valueTypeId="012a097b-2861-4d9c-bede-a21a0feca8f5"/>
+    <listType typeId="155878f3-c13d-4bff-9d81-ae81cd29a42e" valueTypeId="4ee42e7c-9357-407b-8d01-e27dc9e5a57b"/>
+    <managerType typeId="3decfc1d-5efb-4804-b033-b624cb6bacff" valueTypeId="47e4e650-88f7-4ebb-83cd-606795a3289a"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_МоделиАвтотранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели автотранспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УТЗ_ПЛ_МоделиАвтотранспорта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УТЗ_ПЛ_МоделиАвтотранспорта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УТЗ_ПЛ_МоделиАвтотранспорта.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.УТЗ_ПЛ_МоделиАвтотранспорта.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e1354732-9b21-47f4-87b2-e29a7644a43e">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_МаркиАвтотранспорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2709678d-eb0b-4c1e-9e3f-46dea9fa1cbd">
+    <name>ТипАвтотранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип автотранспорта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УТЗ_ПЛ_ТипыАвтотранспорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="cbe3057d-f08e-4e8a-a90d-b9b77e5b89a9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="067346f5-6c97-43d4-9a38-ec115aa2c7b2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03385d31-0e4c-475c-b1e6-97efa632f46b">
+  <producedTypes>
+    <selectionType typeId="1bd83292-c15b-4a67-aeb8-79ab9fdf26b7" valueTypeId="24f2d8c3-67a4-41bd-a15b-6bd2dfb0c6ee"/>
+    <listType typeId="e6b169dc-9219-415e-982e-48939d3bb185" valueTypeId="db710666-5f25-43be-a34c-353a72abfe8f"/>
+    <managerType typeId="91573bc0-4897-47a6-960d-d298036e41a6" valueTypeId="9c71bf53-7b84-4b0b-a86e-b4b94e2c5ba6"/>
+    <recordSetType typeId="1db9d1dc-252f-432f-b349-87cb748b46b3" valueTypeId="37c1b5c8-b3c4-48f5-83b6-b846095a4f8d"/>
+    <recordKeyType typeId="6811e7a6-b750-47f8-8901-4a4519e79d46" valueTypeId="d8f1b835-19b9-4625-ad6f-e800dc1203ed"/>
+    <recordType typeId="c9519a35-a5b2-4bb7-a48c-46e9e8bc7e1f" valueTypeId="0b326c5c-b0bc-4b3f-a821-48592a55f458"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ОстаткиТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки топлива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ef7c7b5e-6586-4b5f-b19c-d2b6dddd6673">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="7f652c75-2942-46a1-aaeb-14bdc5fd6f09">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="2744db04-60ea-4aef-94b9-830e82e62505">
+    <name>Автотранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автотранспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_Автотранспорт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

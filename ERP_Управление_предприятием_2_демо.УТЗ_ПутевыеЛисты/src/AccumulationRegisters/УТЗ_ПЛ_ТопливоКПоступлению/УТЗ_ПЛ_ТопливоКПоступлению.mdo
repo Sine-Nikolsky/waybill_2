@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f44d8284-c275-4237-89e2-a60c86aee73c">
+  <producedTypes>
+    <selectionType typeId="f166828f-a1e1-4d7f-b5bc-f55b0f684029" valueTypeId="376c410f-32fa-41d9-a037-ec7077f9f2f6"/>
+    <listType typeId="2f45dd8b-a2ae-4b09-a212-9f17bd80554f" valueTypeId="823574a3-e7e9-4f37-a5a3-d276dadee521"/>
+    <managerType typeId="fd09fd85-aba1-4e93-b4aa-22316df70174" valueTypeId="08e7c738-69d5-401a-acd9-bafa3a92f401"/>
+    <recordSetType typeId="c7e0a6fb-5d1b-4b56-b697-eb596bdc87bb" valueTypeId="1d3b331a-485b-4a17-87e3-16b689380c82"/>
+    <recordKeyType typeId="d9311252-6f1e-460b-8453-44fc732de53d" valueTypeId="bd540b69-f8f0-441f-9302-63e3cacf5c98"/>
+    <recordType typeId="18508050-1655-408b-a599-479d26a5ce76" valueTypeId="d0ff84e6-168e-4250-bad4-caf80dc0090a"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ТопливоКПоступлению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Топливо к поступлению</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2341220d-522e-4283-90a1-8b487ad1732f">
+    <name>КоличествоКПриемке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество к приемке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="70523c9c-4a65-43d7-b7a8-7c9119389788">
+    <name>ДокументПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ поступления</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.УТЗ_ПЛ_ПутевойЛист</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ad0ebee3-7f1e-4fe7-9996-1362cc47fde3">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5173a651-4596-48db-8503-d223488196ba">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ea6b0e6b-88ba-4c8e-93e5-cebb52f67fe9">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад (топливная карта)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

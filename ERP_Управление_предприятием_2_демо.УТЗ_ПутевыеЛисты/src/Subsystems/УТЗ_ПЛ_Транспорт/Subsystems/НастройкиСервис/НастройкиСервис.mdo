@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9619c7b8-e77f-411e-b758-d29bf890779c">
+  <name>НастройкиСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.УТЗ_ПЛ_НастройкиПутевыхЛистов</content>
+  <content>InformationRegister.УТЗ_ПЛ_НормыРасходаТопливаАвтотранспорта</content>
+  <content>InformationRegister.УТЗ_ПЛ_ЗначенияКоэффициентовРасходаТоплива</content>
+  <content>InformationRegister.УТЗ_ПЛ_ДокументыВодителей</content>
+  <parentSubsystem>Subsystem.УТЗ_ПЛ_Транспорт</parentSubsystem>
+</mdclass:Subsystem>

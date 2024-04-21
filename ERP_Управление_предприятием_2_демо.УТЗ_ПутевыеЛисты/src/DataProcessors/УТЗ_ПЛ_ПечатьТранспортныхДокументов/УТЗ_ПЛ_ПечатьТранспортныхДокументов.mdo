@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c474d49-cbd1-49ff-afa5-cc2e65593191">
+  <producedTypes>
+    <objectType typeId="90e05f33-a901-4f4a-910d-c49d660a6cc7" valueTypeId="dd591330-909d-4891-ac09-ac3a6fa32b33"/>
+    <managerType typeId="145468ef-727d-439e-af49-67e7ec6df129" valueTypeId="4732343f-6000-4cf8-aff7-f4417b8dd8a6"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ПечатьТранспортныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать транспортных документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

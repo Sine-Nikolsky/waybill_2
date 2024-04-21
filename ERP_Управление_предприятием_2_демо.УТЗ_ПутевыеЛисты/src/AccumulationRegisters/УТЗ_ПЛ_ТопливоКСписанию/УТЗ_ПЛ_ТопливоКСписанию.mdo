@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e807d4e4-c639-4cd3-9ff2-9157ed58a924">
+  <producedTypes>
+    <selectionType typeId="df980b33-745a-4074-8bc0-4f4cce7332e9" valueTypeId="53e164b8-07cc-44ad-b77f-3eb10f71bffa"/>
+    <listType typeId="c5ae589f-4a07-42f5-8a1d-06c8f84e1528" valueTypeId="51e16d83-31e2-481b-8f03-3c221cba73f8"/>
+    <managerType typeId="2c3794a5-c55f-4333-90df-93737e8aaf34" valueTypeId="cd41b6a3-da65-4163-ad3e-b46620700958"/>
+    <recordSetType typeId="ec04e6a9-0a3f-4e5f-8083-e81f84ab12ff" valueTypeId="d583fd95-4c79-4a8d-82f3-f9a7995cb382"/>
+    <recordKeyType typeId="6a5daac4-9159-4fc1-a1d4-c3fcd3ffea64" valueTypeId="cc8c08c8-b865-417e-99f0-186993e2eb42"/>
+    <recordType typeId="969d3ec9-5d0c-4476-9811-17fa9a55d075" valueTypeId="a124a968-c0d9-44f5-ba6c-3899b40dc01b"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ТопливоКСписанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Топливо к списанию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fd98c124-e34d-4690-9aa3-adff6f437193">
+    <name>КоличествоКСписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество к списанию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e95aae9c-b0ee-4b97-a2a3-983a8745040c">
+    <name>ДокументСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ списания</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.УТЗ_ПЛ_ПутевойЛист</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3e1e0a22-0318-4b71-8261-730d474672eb">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3d973c53-3130-46de-a459-ea6b9aefa101">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="68b67f7a-6c30-4513-9bda-dd2a2dbeab57">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a3d3b97-52a0-47d6-83b6-eb507aa6d6cc">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УТЗ_ПЛ_ПутевойЛист</content>
+  <content>Document.УТЗ_ПЛ_КорректировкаПробегов</content>
+  <content>Document.УТЗ_ПЛ_КорректировкОстатковТоплива</content>
+  <content>Document.УТЗ_ПЛ_СписаниеТоплива</content>
+  <content>Document.УТЗ_ПЛ_ЗаявкаНаЛегковойАвтотранспорт</content>
+  <content>Document.УТЗ_ПЛ_ЗаявкаНаГрузовойАвтотранспорт</content>
+  <parentSubsystem>Subsystem.УТЗ_ПЛ_Транспорт</parentSubsystem>
+</mdclass:Subsystem>

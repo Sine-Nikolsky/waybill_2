@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="80488bf1-2fad-4029-986e-14eb9595b61f" extendedConfigurationObject="cf04f485-5792-4993-80a9-fe14d4b80320">
+  <producedTypes>
+    <objectType typeId="3bed6cd2-3959-4693-842a-9df1799d452b" valueTypeId="c967f4fd-9e29-4415-949a-6b0672ca2085"/>
+    <refType typeId="3649c768-097b-4831-ac28-9e886f7f6fd6" valueTypeId="72dfa04c-1d14-47ca-a505-5f72d751bbb9"/>
+    <selectionType typeId="2e5648ea-d134-497e-8ce3-e2d09e230aa0" valueTypeId="f3e51dbf-72e8-4b21-ba3c-adb1ea0db331"/>
+    <listType typeId="184dfac0-00ce-446f-a489-6ec0b0a1b05c" valueTypeId="f30909b4-09d3-41ed-a47f-1bd4c63851b5"/>
+    <managerType typeId="73c02b12-2b6e-4073-83f4-a87dc7228334" valueTypeId="c63c782b-9c9a-49e2-b985-5904c54153df"/>
+    <containerType typeId="dcacf34b-d9f4-4614-a3a0-6d2c47816a88" valueTypeId="23f3197d-421d-443e-99c8-f9d5ee035de8"/>
+  </producedTypes>
+  <name>СтатьиАктивовПассивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:ChartOfCharacteristicTypes>

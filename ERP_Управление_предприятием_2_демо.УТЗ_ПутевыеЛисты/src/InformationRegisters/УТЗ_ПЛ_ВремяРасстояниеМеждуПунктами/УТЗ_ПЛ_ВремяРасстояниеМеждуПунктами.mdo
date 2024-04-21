@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b8756aa-d6c9-43e2-a927-0dffccb906cf">
+  <producedTypes>
+    <selectionType typeId="0a5f777e-39ff-441d-b6d9-471fc2af2146" valueTypeId="ef5616a2-7b50-4c3c-8368-3960019a90fd"/>
+    <listType typeId="ff8f66c8-577e-45f2-adf3-ad1fdb2a87cd" valueTypeId="6c8e4d33-b912-4024-ab1e-36a099d709c2"/>
+    <managerType typeId="0a9a59f2-ec45-4776-8a97-9d420ec2d790" valueTypeId="9ec26743-0134-4e04-8192-9784a0d1e75d"/>
+    <recordSetType typeId="4c84c938-d893-4729-916f-033f6b194890" valueTypeId="31e09818-29a4-4aa5-b660-46aebe236fd7"/>
+    <recordKeyType typeId="bc185c04-af88-4884-a766-2e6b2c5d212b" valueTypeId="5dc6946b-b293-4c3c-a495-01199d5bb45a"/>
+    <recordType typeId="c3d327fc-3a28-4711-88cb-d943d6034e93" valueTypeId="d38ef767-8a9f-4911-a3dd-d07dc0a32737"/>
+    <recordManagerType typeId="ab2e168a-3e4a-443f-833d-1571e440e71e" valueTypeId="a12695c9-1447-42f1-b34b-08e3f42269c0"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ВремяРасстояниеМеждуПунктами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время и расстояние между пунктами маршрута</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a54a3245-b4d2-4e63-a206-47e9fab904a3">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c94ee553-59e3-446a-bd50-4e14b4913c74">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="775521e3-d0ac-400d-98e8-7c85ae8291e7">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3ee09f86-de16-4117-befd-56cf4eb4c04b">
+    <name>Автотранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автотранспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_Автотранспорт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="852e9021-dd38-4372-a581-87cca614818b">
+    <name>Пункт1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_ПунктыМаршрута</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="419251cb-2c44-46ca-b0af-5e0f63a322d1">
+    <name>Пункт2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_ПунктыМаршрута</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

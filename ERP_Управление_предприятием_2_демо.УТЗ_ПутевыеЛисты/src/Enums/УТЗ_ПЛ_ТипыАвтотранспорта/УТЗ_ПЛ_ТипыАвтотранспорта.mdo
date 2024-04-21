@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad7d833b-1777-4cb0-a266-5f47ef24a1e1">
+  <producedTypes>
+    <refType typeId="377f9e0a-9e89-48a7-a8e6-54c77804915d" valueTypeId="17987988-95b1-46ed-9e12-d8b93548c535"/>
+    <listType typeId="7e156a40-720e-40aa-baa0-99a26c4b0c08" valueTypeId="f94f6276-afd7-4f68-badb-fe80e89801b4"/>
+    <managerType typeId="307802ee-b9b7-4f39-b621-dbd55e11dee9" valueTypeId="b987b4d1-1d35-404d-a5e6-8f40eab381a9"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ТипыАвтотранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>УТЗ п л типы автотранспорта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6cabab85-c387-44c2-b3d9-d5055b9555aa">
+    <name>Легковой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легковой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="176cf5ee-7a28-4f35-9761-9c152dff80cb">
+    <name>Грузовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e5d35ce-8f5c-4805-b3c7-4b653e9b363a">
+    <name>Специальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

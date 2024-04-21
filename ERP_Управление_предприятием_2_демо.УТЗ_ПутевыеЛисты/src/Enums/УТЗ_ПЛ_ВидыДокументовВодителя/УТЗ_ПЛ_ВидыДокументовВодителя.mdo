@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc1836e1-8a31-4e7e-9c2f-a748f2bbe5bb">
+  <producedTypes>
+    <refType typeId="a530d963-a49e-4c6f-a9e0-5b4a838e08f0" valueTypeId="4588065e-eca3-4ef6-a996-9cac9e19b9c1"/>
+    <listType typeId="2016fee9-1b2e-46ea-bbd4-6b8c4db45377" valueTypeId="412cc52f-5e91-4aaa-8b50-96b946b08e2c"/>
+    <managerType typeId="f3aa4683-971b-4593-9068-93c00b2975d7" valueTypeId="cb749bae-f23c-4c44-a9bb-fae5de97fc46"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ВидыДокументовВодителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов водителя</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="05ec3aea-854c-4212-a5ae-e60ce8832c43">
+    <name>ВодительскоеУдостоверение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водительское удостоверение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc2bcf65-3128-4248-ad40-8010e93246cb">
+    <name>Лицензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aea30a90-58f1-4258-bc35-eb70f3c5c6ef">
+    <name>Паспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

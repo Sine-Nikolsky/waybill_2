@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a727f09-d3f9-40e6-89b4-b4f4ac3c1a70">
+  <producedTypes>
+    <objectType typeId="ccb55079-924b-4980-84ab-7e59f4b21d4c" valueTypeId="29571c0d-7524-40cb-b0bf-8e936d95813d"/>
+    <managerType typeId="87b64624-40eb-405c-858e-781b17384561" valueTypeId="fd74982f-353a-46ba-ba0f-b68fee345ede"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ЖурналЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал заявок на автотранспорт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УТЗ_ПЛ_ЖурналЗаявок.Form.Форма</defaultForm>
+  <forms uuid="b89543b7-5e02-4d5f-a36a-f4e772d24755">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6eb41f97-2983-41a7-bc61-432aff476b73">
+    <name>ОткрытьЖурналЗаявок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал заявок на автотранспорт</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

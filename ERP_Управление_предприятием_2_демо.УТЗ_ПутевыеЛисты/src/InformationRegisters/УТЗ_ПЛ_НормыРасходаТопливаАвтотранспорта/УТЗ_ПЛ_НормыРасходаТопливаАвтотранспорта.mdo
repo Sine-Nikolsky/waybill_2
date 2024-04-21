@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8e7466b-0e70-41dc-b2a4-6b6c451fa0de">
+  <producedTypes>
+    <selectionType typeId="ed031d6b-4baa-4819-b0c2-e1c67fc5d2b2" valueTypeId="2e57a592-765d-4ae7-9db1-b503109da5c8"/>
+    <listType typeId="7d3d544e-e571-4825-afdb-ae4ec0266c7b" valueTypeId="809178e0-58a9-40fa-a6ed-81fe8410cca8"/>
+    <managerType typeId="10e9eecb-b1f6-4bd8-8513-5271c465c3ed" valueTypeId="aead9005-fb09-4f60-88d4-ef0a5710e46d"/>
+    <recordSetType typeId="6e5842b2-c001-4449-be06-e791b512609f" valueTypeId="2dbd694c-08e3-4ddd-aba7-03239dc51054"/>
+    <recordKeyType typeId="98bc77f4-37aa-4692-8924-fd112df25cb8" valueTypeId="a222b4da-b7e3-48fe-8372-6248222118f7"/>
+    <recordType typeId="15d43778-1126-42c9-b6e6-a108a9a2d55b" valueTypeId="6597a39a-6671-47f5-ae41-6b78e70fa8be"/>
+    <recordManagerType typeId="9f6aa98c-5bd8-4e45-9bf7-6700e3266474" valueTypeId="e518f76d-1da4-41ca-a9e8-c029be48f3cb"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_НормыРасходаТопливаАвтотранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы расхода топлива автотранспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УТЗ_ПЛ_НормыРасходаТопливаАвтотранспорта.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято к учету с</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ef08e677-9e90-4ace-b04f-e6c4450b8359">
+    <name>НормаРасходаОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная норма расхода, л/100 км</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df0a541a-1965-43cb-9d19-06ae7024f576">
+    <name>НормаРасходаДополнительнаяНаПеревозку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. норма на перевозку грузов, л</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество дополнительно израсходуемого топлива (к основному расходу) на 100 км при перевозке 1 тонны груза</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7b7f3b32-e18e-4afb-83bd-b25da01ff1f2">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d17d6675-c300-4873-bb63-e5a3137c84d9">
+    <name>Автотранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автотранспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_Автотранспорт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a13df011-5140-4c99-ae0e-432b96788e75">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3796843-0a38-448f-8ed2-c413309f14ca">
+    <name>ФормаСпискаСрезПоследних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка срез последних</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

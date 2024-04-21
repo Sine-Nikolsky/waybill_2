@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f0dd542-208b-475e-b4a7-cf61c45f7584">
+  <producedTypes>
+    <objectType typeId="1885d1e4-b516-40df-b91d-dab9d491b9da" valueTypeId="4186ac23-3e3c-4f97-83c6-a5bf3d46812d"/>
+    <managerType typeId="175ea121-c805-4565-8ff4-938e17cd9b59" valueTypeId="7e689866-aae3-4a76-8afb-d6ba00e4d8e6"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_РабочееМестоСписанияПополненияТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место списания, пополнения топлива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УТЗ_ПЛ_РабочееМестоСписанияПополненияТоплива.Form.Форма</defaultForm>
+  <forms uuid="36a43bf6-af02-4b0f-8dca-92385debad1e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="dc463198-3295-432c-afbd-167f5fa2ddc3">
+    <name>ОткрытьРабочееМестоСписанияПополненияТоплива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место списания топлива</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

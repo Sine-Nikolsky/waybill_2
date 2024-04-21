@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35cc217c-9691-46d7-a4e4-7d5af4fd6e0c">
+  <producedTypes>
+    <selectionType typeId="2c519a49-29b5-434e-af45-b81912b73961" valueTypeId="1da78550-65fe-4d36-934a-5be1ac2e45b2"/>
+    <listType typeId="5961f7f6-755f-4905-b51d-08a6a0fc04fd" valueTypeId="35ff4c22-6468-4d3c-adf2-551bd9cef572"/>
+    <managerType typeId="0c583a18-b822-43f3-a595-b5205b2cbc23" valueTypeId="66aef356-b676-41b0-873e-8368f22f425b"/>
+    <recordSetType typeId="f097e0d0-9e80-4232-a8dd-531421f10fd9" valueTypeId="6d559756-9fba-4a4c-a960-0db9a476f1db"/>
+    <recordKeyType typeId="2167cf64-ef4b-43ae-9c35-d3a3dfc87e9c" valueTypeId="96ab1a06-8ae2-4c9b-bb6c-015e6028e41b"/>
+    <recordType typeId="1fd0d12d-d89c-4ee9-b731-cc3f7183a482" valueTypeId="9cc98204-54eb-48b5-b95e-43aeb79960bf"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ПробегАвтотранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пробег автотранспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b84582ba-dc97-473d-abee-a6d943456ad0">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="bc15d961-050e-4dd7-82b0-c63210c09b39">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="abaa3eb0-48f5-475f-98a2-7f31143f31d4">
+    <name>Автотранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автотранспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_Автотранспорт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

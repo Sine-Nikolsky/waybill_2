@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8752df3-14a9-4104-ae47-78a2d3eda32b">
+  <name>УТЗ_ПЛ_ПунктыМаршрутаКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пункты маршрута</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

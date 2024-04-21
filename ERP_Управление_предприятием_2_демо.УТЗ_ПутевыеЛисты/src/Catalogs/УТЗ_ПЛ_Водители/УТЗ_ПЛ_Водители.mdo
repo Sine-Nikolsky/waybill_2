@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f479730-838b-47cf-94d5-cfe6f7d1fdc4">
+  <producedTypes>
+    <objectType typeId="2067b6b1-c248-412e-b3fd-a3970141b485" valueTypeId="80fb301d-6ac4-413e-a2c0-91223b06e5b0"/>
+    <refType typeId="5dc3022f-2b43-4670-aba8-3f47bb276992" valueTypeId="4f97d65a-be4b-418d-b45a-5d063b8696de"/>
+    <selectionType typeId="a547456a-ee6f-43ed-ad2a-64b9e11c5923" valueTypeId="3584dfb3-5931-4c58-ab31-0a90a88fa29e"/>
+    <listType typeId="3278aa8f-16ed-482f-af3a-cb7fb65fad7e" valueTypeId="cefdf760-dc37-464e-b7b5-0217f2b8152f"/>
+    <managerType typeId="3d3bb774-d5be-475e-be8f-939a90ad7e9d" valueTypeId="52fc9521-483c-48a2-a12d-4e86a5ac3ff2"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_Водители</name>
+  <synonym>
+    <key>ru</key>
+    <value>УТЗ п л водители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УТЗ_ПЛ_Водители.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Водитель</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Водители</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УТЗ_ПЛ_Водители.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d2d8108b-f31f-4094-9c55-7e01c292841e">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6b26deb-ce56-4c7a-bcdd-5db9615529b6">
+    <name>ФамилияИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия ИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="664d21ab-ee94-4ea9-9a50-100540e6ecb2">
+    <name>ТабельныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табельный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b544b7b7-2915-401f-8707-706a6e78bb83">
+    <name>ДополнениеПредставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнение представления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f1325b8-3c4c-4110-a919-be03605cb8f9">
+    <name>СНИЛС</name>
+    <synonym>
+      <key>ru</key>
+      <value>СНИЛС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask>999-999-999 99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d88513eb-ab7f-45be-829b-819e7d1bd97d">
+    <name>КлассВодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс водителя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УТЗ_ПЛ_КлассыВодителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="99cc0471-884a-4c44-b6ea-0c3187cf332e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

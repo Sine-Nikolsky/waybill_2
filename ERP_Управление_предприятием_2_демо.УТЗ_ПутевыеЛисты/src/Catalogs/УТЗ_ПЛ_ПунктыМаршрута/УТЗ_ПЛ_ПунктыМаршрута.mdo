@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1359a565-9468-4f12-8f3d-f9767d92b672">
+  <producedTypes>
+    <objectType typeId="6ce21227-2a0c-4645-a8ad-a9b785a3543c" valueTypeId="ed241fdd-d6a9-4b5b-8758-67c2e796f732"/>
+    <refType typeId="180a7335-338a-4faf-80ed-b006d9031b2b" valueTypeId="e09eb3e4-ab75-43d6-9ddc-58e4f2bdeff8"/>
+    <selectionType typeId="8d4fa466-568d-442b-99c3-20f8e4ef4456" valueTypeId="14774be2-5b3b-433e-b786-7ad8cf969a83"/>
+    <listType typeId="9458418d-5104-4bd8-af28-7a19e6e14d4c" valueTypeId="8151df90-c61d-4bf2-a8e3-e6b8a5fb4dd3"/>
+    <managerType typeId="58ca904f-22a5-4318-9654-2116ce9d503f" valueTypeId="227ba699-aa4e-42e7-981d-3075862289e9"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ПунктыМаршрута</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пункты маршрута</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УТЗ_ПЛ_ПунктыМаршрута.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УТЗ_ПЛ_ПунктыМаршрута.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УТЗ_ПЛ_ПунктыМаршрута.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УТЗ_ПЛ_ПунктыМаршрута.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УТЗ_ПЛ_ПунктыМаршрута.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e80b8e5a-5fa2-4ee5-b19b-8ed0f7b3ef69">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7391ebfc-4611-4f16-88c3-ddba42e50956">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e20fbaed-b083-4050-92b7-768c1faf0ae6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66f94a9b-86c3-41b5-ad15-1fad3c3d5294">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ffdc3da-a7c2-4307-be77-797f9908a6dc">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

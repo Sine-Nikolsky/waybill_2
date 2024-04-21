@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40411821-0ee5-4513-b108-a31d7cd05d8b">
+  <producedTypes>
+    <objectType typeId="bfe8df29-0bcb-4fdd-aff2-dc9670f80b2a" valueTypeId="7c260ed7-4654-44e3-a169-84039f3ce612"/>
+    <refType typeId="e96e3c73-c066-43ae-8658-7e4eacfcb2f8" valueTypeId="161a1ce0-5dd0-4d53-b2d4-179908c6ffd4"/>
+    <selectionType typeId="b98b0862-ed0e-47ff-95c7-2e54ae1cc7d6" valueTypeId="2463da6d-78b2-4a02-a214-bb1045ce3e41"/>
+    <listType typeId="81fa0710-eb05-40d5-81b0-fbc1d7764be0" valueTypeId="164ca326-7052-4f19-afac-68bcaeb5a51a"/>
+    <managerType typeId="fdc8c871-f1fa-40b3-8848-a2b0ca8f5b59" valueTypeId="c93b4374-594c-4993-a178-9262f244658e"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_КорректировкОстатковТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка остатков топлива автотранспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УТЗ_ПЛ_КорректировкОстатковТоплива.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УТЗ_ПЛ_КорректировкОстатковТоплива.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УТЗ_ПЛ_КорректировкОстатковТоплива.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.УТЗ_ПЛ_ОстаткиТоплива</registerRecords>
+  <registerRecords>AccumulationRegister.УТЗ_ПЛ_ТопливоКСписанию</registerRecords>
+  <registerRecords>AccumulationRegister.УТЗ_ПЛ_ТопливоКПоступлению</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="42a09542-a3b2-47e5-ba5a-7a25fb41f8ec">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d48d5a39-585f-481a-866a-142a6a368e41">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8c31136-8408-4e10-9eed-bcdf505c344e">
+    <name>СписокАвтотранспортаСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автотранспорт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e30ecfa2-bb1b-4f79-8fbc-b9014dfbacc3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f416a32f-0bb5-43c5-9a3d-a1c6bebd8a41">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9e29dcbd-dea9-49d2-9a06-fe0e06adf81e">
+    <producedTypes>
+      <objectType typeId="ea416514-035d-4ea4-847a-eee5d4065b2b" valueTypeId="2d32e59e-6935-4cd1-9de4-bb75e88b1499"/>
+      <rowType typeId="71ae81a3-068d-406a-8cc5-9e3440790ad9" valueTypeId="93b0f699-96ca-4926-866e-23738493c6d6"/>
+    </producedTypes>
+    <name>СписокАвтотранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список автотранспорта</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4f0ce360-518a-458c-95de-efc8defd9b17">
+      <name>Автотранспорт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автотранспорт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УТЗ_ПЛ_Автотранспорт</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4d7d0813-9734-462a-be9c-a45bdb8df763">
+      <name>ВидДвижения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид движения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.УТЗ_ПЛ_ВидыДвиженийКорректировок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25dad996-bf84-427e-ad05-59d1db9cada8">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество, л</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86e8cc23-b627-41ff-a372-50ce044a9da4">
+      <name>ОстатокТекущий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток текущий</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="223202bf-9e12-4407-aec5-5b26c3ce1cc2">
+      <name>ОстатокСкорректированный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток скорректированный</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

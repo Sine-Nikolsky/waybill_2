@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bbe94bc-9fcc-4c9d-8c40-2495379c20aa">
+  <producedTypes>
+    <objectType typeId="b3bbb11a-2cb4-4589-884e-f70fad3cd42f" valueTypeId="61dd82ba-a760-4571-ba4e-4f1c456d8eef"/>
+    <refType typeId="510f9d79-0bc5-4b55-8cd5-dc969b1ab9f0" valueTypeId="7acbb69c-e316-4e30-94db-879e044369dc"/>
+    <selectionType typeId="570e949f-70ae-4921-8270-28575b4bb0da" valueTypeId="651f912c-2a5b-4012-b28f-82954c6f1bbe"/>
+    <listType typeId="5cdb1436-0380-4884-86a9-21a2da57f1f7" valueTypeId="7a51ccc7-b29a-467b-bd71-5c9f9c37f88c"/>
+    <managerType typeId="c640d627-9aae-4d09-9a47-604469ee027d" valueTypeId="f9320312-609e-4f79-afe4-e7f2461d91ea"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_Справочник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УТЗ_ПЛ_Справочник.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УТЗ_ПЛ_Справочник.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.УТЗ_ПЛ_ЖурналЗаявок.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.УТЗ_ПЛ_РабочееМестоСписанияПополненияТоплива.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.УТЗ_ПЛ_Транспорт.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.УТЗ_ПЛ_Транспорт.Subsystem.НастройкиСервис</subsystems>
+    <subsystems>Subsystem.УТЗ_ПЛ_Транспорт.Subsystem.Справочники</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

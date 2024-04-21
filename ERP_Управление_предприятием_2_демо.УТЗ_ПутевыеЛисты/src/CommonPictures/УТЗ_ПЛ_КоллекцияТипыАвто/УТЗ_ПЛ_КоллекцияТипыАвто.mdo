@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="448fc203-9de3-4797-914d-50e1ef6ccb11">
+  <name>УТЗ_ПЛ_КоллекцияТипыАвто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция &quot;типы авто&quot;</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf3d7e65-5614-4acb-9940-bdef932d674b">
+  <name>УТЗ_ПЛ_ГрузовойАвтомобиль3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Грузовой автомобиль</value>
+  </synonym>
+</mdclass:CommonPicture>

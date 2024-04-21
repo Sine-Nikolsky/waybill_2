@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de01bd75-be90-4874-b447-e4caf6b57531">
+  <producedTypes>
+    <selectionType typeId="cad2312b-15a6-45a3-b3e0-9a4ad5ea0b0e" valueTypeId="5fff74bb-357c-4468-bd7e-f7273fb62626"/>
+    <listType typeId="f5b1962d-7c49-45e6-8a1b-231f3c09b800" valueTypeId="1ed25995-46c1-4b52-bc38-cecd054e086c"/>
+    <managerType typeId="fa6c4a13-6941-4764-8134-694a4425ac3a" valueTypeId="e8fecc73-9216-49ef-a188-b95d00f44cad"/>
+    <recordSetType typeId="6f414d9c-a288-47e2-b88c-1b57ac118078" valueTypeId="1f101e7e-6d5c-4ae5-ab14-bf982118876c"/>
+    <recordKeyType typeId="c63d5e71-2e3c-4544-93b6-1cf9346f3950" valueTypeId="9182e0bc-17a9-4f90-b6ff-5712f9feadc0"/>
+    <recordType typeId="37f23387-3d81-4b69-a5f0-4ba437569183" valueTypeId="a395f983-e864-4d89-ae48-a3a35efcf887"/>
+    <recordManagerType typeId="306aa25f-2123-4d58-9239-9e8661ef8893" valueTypeId="a09b7ad1-e40a-482d-bad6-f231e20f115e"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ЗаблокированныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заблокированные документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="7e5cfc73-f3fb-4632-a4c5-a1cb0662b7fa">
+    <name>ЗаблокированныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокированный документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.УТЗ_ПЛ_СписаниеТоплива</types>
+      <types>DocumentRef.УТЗ_ПЛ_ПутевойЛист</types>
+      <types>DocumentRef.УТЗ_ПЛ_КорректировкОстатковТоплива</types>
+      <types>DocumentRef.УТЗ_ПЛ_КорректировкаПробегов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="550df4ce-eef3-4f21-b26b-e21bb96d7494">
+    <name>Блокировщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировщик</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВнутреннееПотребление</types>
+      <types>DocumentRef.УТЗ_ПЛ_СписаниеТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

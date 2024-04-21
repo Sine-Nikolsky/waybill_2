@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="539bfe11-dd0f-4568-a70c-6da8eb9847e8">
+  <producedTypes>
+    <objectType typeId="ad762ac6-0919-4e2b-9ddd-20c97a7e9b3c" valueTypeId="6aa4a689-195f-45bb-95f5-26d1764a2747"/>
+    <refType typeId="985b3d0a-4c4f-4be6-a7fa-e51c7cac3544" valueTypeId="5865eb49-0d01-449f-9b9f-ef2c0024505d"/>
+    <selectionType typeId="58704867-2afc-4b5a-8447-fca2a5218a09" valueTypeId="eeaf89ed-96e7-44e9-b26c-26031a470e9c"/>
+    <listType typeId="26101a08-0ece-47be-9b29-c249be11842f" valueTypeId="47b3ef7a-d554-4291-8aa1-3df46a7966cc"/>
+    <managerType typeId="2b690825-090a-42d7-951d-be2e3c4c37f5" valueTypeId="b38b5032-5ce5-41a9-9753-e93a9288c40f"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_Топливо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды топлива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УТЗ_ПЛ_Топливо.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УТЗ_ПЛ_Топливо.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид ГСМ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды ГСМ</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2fe3814b-f43e-44bf-8a36-c69e8e8de0df">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dae575a8-dacb-4935-ad74-ebc09b1aacea">
+  <producedTypes>
+    <refType typeId="973fc6dd-460b-4b5b-80cd-55a337be9fba" valueTypeId="5ef9b73d-1227-423e-b980-d8489da86691"/>
+    <listType typeId="3de229e8-1095-4bfe-95d4-f8c8b83d65ca" valueTypeId="bd6830d8-a6d4-4199-b762-c94ba08e590d"/>
+    <managerType typeId="3fe70ac1-5c09-48b1-bbfa-b8bac9a4009c" valueTypeId="435d7c8d-d41a-4629-973a-bb53085522a0"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_СтатусыСписанияТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>УТЗ п л статусы списания топлива</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e347af59-3cb2-47a3-9844-5e943bb78df7">
+    <name>ВнутреннееПотреблениеНеСоздано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее потребление не создано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f2875c3-89ea-4e73-95fb-cd8b35fa2c2e">
+    <name>ВнутреннееПотреблениеСоздано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее потребление создано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67866ea6-16e3-4bfb-88bd-e2ecb543bd5d">
+    <name>ВнутреннееПотреблениеПроведено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее потребление проведено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

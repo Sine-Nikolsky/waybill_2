@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0475b02-c997-4056-940e-b9bd82e3016b">
+  <producedTypes>
+    <selectionType typeId="a9cd4146-6942-453a-a657-f81574110be1" valueTypeId="5e542167-3d8e-4e24-9637-c83f0500414e"/>
+    <listType typeId="439a39b5-2ef7-4df4-9d5d-90566f8d32c5" valueTypeId="16b7663b-d7e9-4719-886a-1ff2549f3a6e"/>
+    <managerType typeId="8b86b806-9348-4927-96d0-ab57941a96c2" valueTypeId="10584cd6-91fb-4dba-98f5-699e52c9196f"/>
+    <recordSetType typeId="01cb7f9e-a022-4c2c-87ce-4ddc8eda5ee4" valueTypeId="63a63419-eac0-41a5-8381-670cd532c3db"/>
+    <recordKeyType typeId="962559f7-4c7e-4ed1-8cb5-c6000299dce8" valueTypeId="78f75b66-d9c1-4cb4-a91b-e11c524190ae"/>
+    <recordType typeId="94f09fda-796d-4daf-93db-2a4ecfaf3fef" valueTypeId="c3f2eccb-d3f9-4dd6-a438-ece952bb1049"/>
+    <recordManagerType typeId="532bb88e-3fb6-4549-b8e0-a46360cde661" valueTypeId="bd3961d5-75fd-4978-843d-dae0936217a1"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_НастройкиПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки путевых листов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УТЗ_ПЛ_НастройкиПутевыхЛистов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято к учету с</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cc467fa5-8764-4341-ac16-84f9ef2b93c5">
+    <name>ВремяНачалаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e4bf6342-67f0-4c2b-af21-af6f4be6e2f0">
+    <name>ВремяОкончанияРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5e7a240a-f36f-49a8-bdc6-f006293b00f7">
+    <name>ЗначениеКоэффициентаВозрастаПробега1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента возраста пробега1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6e1b1c4-5da0-403c-90fb-385bf97572a3">
+    <name>ЗначениеКоэффициентаВозрастаПробега2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент возраста пробега (старше 8 лет или более 150 т.км.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="af0eff27-e61e-4de9-9423-94d6c31d53da">
+    <name>ЗначениеКоэффициентаКлассаДороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента класса дороги</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fe5d76ee-e615-491a-af5f-6c2a0683c64f">
+    <name>ЗначениеКоэффициентаКондиционера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента кондиционера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="37e8ed55-7de4-4dbc-9751-bc7add452f4f">
+    <name>ЗначениеКоэффициентаНаселенногоПункта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента населенного пункта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0c92ff9b-dc91-40d1-92e2-d471014eee11">
+    <name>ЗначениеКоэффициентаСезонного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента сезонного</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c60b1cb6-9400-4b8a-a33a-c55e8aab0d49">
+    <name>КоэффициентВозрастаПробега1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент возраста пробега (старше 5 лет или более 100 т.км.)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_КоэффициентыРасходаТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eb6cdd9b-e281-4abb-8e28-c0dd2fa1e8ff">
+    <name>КоэффициентВозрастаПробега2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент возраста пробега (старше 8 лет или более 150 т.км.)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_КоэффициентыРасходаТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d57bdcfb-6f71-467b-a74f-50ea0e986c7e">
+    <name>КоэффициентКлассаДороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент класса дороги</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_КоэффициентыРасходаТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="568b366a-7395-4bbc-a418-ad271be0f42f">
+    <name>КоэффициентКондиционера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент кондиционера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_КоэффициентыРасходаТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c3d19c81-e4ca-4751-8384-da308b237fba">
+    <name>КоэффициентНаселенногоПункта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент населенного пункта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_КоэффициентыРасходаТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1d59d9fd-95b0-4da0-bd5e-3bb4030bf3f4">
+    <name>КоэффициентСезонный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент сезонный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_КоэффициентыРасходаТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3f41f586-396e-4406-88bb-9de721a4a596">
+    <name>МестоПарковкиГрузовогоАвтотранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место парковки грузового автотранспорта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_ПунктыМаршрута</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d030caf4-e78f-46f7-861c-82862eca9e15">
+    <name>МестоПарковкиЛегковогоАвтотранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место парковки легкового автотранспорта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УТЗ_ПЛ_ПунктыМаршрута</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0a69e346-35f7-4def-81b7-66ca6eaa290f">
+    <name>УчитыватьВозрастПробег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать возраст и пробег</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8eddaf9b-610e-493d-9f06-845d7e51f38d">
+    <name>УчитыватьКлассДороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать класс дороги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d4553c7d-b980-40c7-8a1a-4c153df2a56a">
+    <name>УчитыватьКондиционер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать кондиционер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2d185ba5-fe6c-4290-8680-043f4bbf1707">
+    <name>УчитыватьРазмерНаселенногоПункта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать размер населенного пункта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0113bd7b-b015-4e2c-8025-16507464dd45">
+    <name>УчитыватьСезонныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать сезонный коэффициент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2f9390ee-d61e-4485-8ced-deaa60ab9b55">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2651dc2a-16c4-43e3-8e23-15e19832c6c3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

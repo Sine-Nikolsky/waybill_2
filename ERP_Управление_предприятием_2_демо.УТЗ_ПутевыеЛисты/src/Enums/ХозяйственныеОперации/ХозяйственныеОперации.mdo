@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bf3a7d5d-8457-4cdf-93c4-987614016e9b" extendedConfigurationObject="351b0c5b-74c3-4aaa-a93b-7246b941f797">
+  <producedTypes>
+    <refType typeId="7f242ab4-8814-4cd7-9fe7-d7dbbc9914fc" valueTypeId="7bbbe388-672a-4750-85a4-8d055ee4085b"/>
+    <listType typeId="c6aca0ea-6840-4019-a231-bfaa5b55d6b2" valueTypeId="646af9fc-9666-4331-a90d-573dfb7c2dee"/>
+    <managerType typeId="2aac8dd9-cd2a-460f-a538-fd8f5b2053df" valueTypeId="83051237-242d-45fa-a2c5-7577c52b0a52"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="134df780-a21f-4b48-89f4-acc3e347dd0d" extendedConfigurationObject="82e6dbf8-d7ba-4382-9880-9e83d175a158">
+    <name>СписаниеТоваровПоТребованию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

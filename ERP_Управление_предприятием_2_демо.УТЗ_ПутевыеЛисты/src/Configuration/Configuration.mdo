@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="080a10f3-ffd3-49ed-b152-ff67c94c5168">
+  <name>УТЗ_ПутевыеЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путевые листы (УТЗ)</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6ae46aac-a391-41a1-be66-5a37589f227a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="12b6415e-46fe-41ff-826c-dce884f595b6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f20a63ba-542f-44f7-a9bf-0302a76a0d42"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="79d680c8-9b10-4dd0-9163-804f545aeb8a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="93d7a7f4-f314-41cd-a26d-626a03f26ae5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="48dbd93a-36cf-407f-b9be-d66077edf679"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="be165910-2800-4269-baec-eb1984c31d39"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>УТЗ_ПЛ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="e8522420-3048-4611-b6b3-a1668d4d6583" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УТЗ_ПЛ_Транспорт</subsystems>
+  <commonPictures>CommonPicture.УТЗ_ПЛ_ГрузовойАвтомобиль</commonPictures>
+  <commonPictures>CommonPicture.УТЗ_ПЛ_ГрузовойАвтомобиль2</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияГалок3</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияИндикаторовКруги</commonPictures>
+  <commonPictures>CommonPicture.СоздатьДокументБЗК</commonPictures>
+  <commonPictures>CommonPicture.УТЗ_ПЛ_ЛегковойАвтомобиль</commonPictures>
+  <commonPictures>CommonPicture.УТЗ_ПЛ_ГрузовойАвтомобиль3</commonPictures>
+  <commonPictures>CommonPicture.УТЗ_ПЛ_КоллекцияТипыАвто</commonPictures>
+  <commonPictures>CommonPicture.УТЗ_ПЛ_КоллекцияДокумент</commonPictures>
+  <commonPictures>CommonPicture.УТЗ_ПЛ_СтатусыЗаявок</commonPictures>
+  <roles>Role.УТЗ_ПЛ_ОсновнаяРоль</roles>
+  <roles>Role.УТЗ_ПЛ_ЧтениеВсего</roles>
+  <commonModules>CommonModule.УТЗ_ПЛ_Организации</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_ОрганизацииВызовСервера</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_Автотранспорт</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_АвтотранспортВызовСервера</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_ПунктыМаршрута</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_ПунктыМаршрутаВызовСервера</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_ПунктыМаршрутаКлиент</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_НастройкиПутевыхЛистов</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_НастройкиПутевыхВызовСервера</commonModules>
+  <commonModules>CommonModule.УТЗ_ПЛ_НастройкиПутевыхЛистовКлиент</commonModules>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.НаправленияДеятельности</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ОбъектыЭксплуатации</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_Автотранспорт</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_Водители</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_КоэффициентыРасходаТоплива</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_МаркиАвтотранспорта</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_МоделиАвтотранспорта</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_ПунктыМаршрута</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_ТопливныеКарты</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_Топливо</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.УТЗ_ПЛ_Справочник</catalogs>
+  <documents>Document.ВнутреннееПотребление</documents>
+  <documents>Document.УТЗ_ПЛ_ЗаявкаНаГрузовойАвтотранспорт</documents>
+  <documents>Document.УТЗ_ПЛ_ЗаявкаНаЛегковойАвтотранспорт</documents>
+  <documents>Document.УТЗ_ПЛ_КорректировкаПробегов</documents>
+  <documents>Document.УТЗ_ПЛ_КорректировкОстатковТоплива</documents>
+  <documents>Document.УТЗ_ПЛ_ПутевойЛист</documents>
+  <documents>Document.УТЗ_ПЛ_СписаниеТоплива</documents>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.УТЗ_ПЛ_ВидыКоэффициентовРасходаГСМ</enums>
+  <enums>Enum.УТЗ_ПЛ_ВидыАвтотранспорта</enums>
+  <enums>Enum.УТЗ_ПЛ_ВидыПутевыхЛистов</enums>
+  <enums>Enum.УТЗ_ПЛ_ВидыПоступленияГСМ</enums>
+  <enums>Enum.УТЗ_ПЛ_ВидыДвиженийКорректировок</enums>
+  <enums>Enum.УТЗ_ПЛ_ВидыДокументовВодителя</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+  <enums>Enum.УТЗ_ПЛ_СтатусыСписанияТоплива</enums>
+  <enums>Enum.УТЗ_ПЛ_ТипыАвтотранспорта</enums>
+  <enums>Enum.УТЗ_ПЛ_КлассыВодителей</enums>
+  <enums>Enum.УТЗ_ПЛ_ВидыТранспортныхСообщений</enums>
+  <enums>Enum.УТЗ_ПЛ_СтатусыЗаявокНаАвтотранспорт</enums>
+  <dataProcessors>DataProcessor.УТЗ_ПЛ_РабочееМестоСписанияПополненияТоплива</dataProcessors>
+  <dataProcessors>DataProcessor.УТЗ_ПЛ_ПечатьТранспортныхДокументов</dataProcessors>
+  <dataProcessors>DataProcessor.УТЗ_ПЛ_ЖурналЗаявок</dataProcessors>
+  <informationRegisters>InformationRegister.УТЗ_ПЛ_НормыРасходаТопливаАвтотранспорта</informationRegisters>
+  <informationRegisters>InformationRegister.УТЗ_ПЛ_ДокументыВодителей</informationRegisters>
+  <informationRegisters>InformationRegister.УТЗ_ПЛ_ЗначенияКоэффициентовРасходаТоплива</informationRegisters>
+  <informationRegisters>InformationRegister.УТЗ_ПЛ_НастройкиПутевыхЛистов</informationRegisters>
+  <informationRegisters>InformationRegister.УТЗ_ПЛ_ВремяРасстояниеМеждуПунктами</informationRegisters>
+  <informationRegisters>InformationRegister.УТЗ_ПЛ_ЗаблокированныеДокументы</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.УТЗ_ПЛ_МоточасыАвтотранспорта</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УТЗ_ПЛ_ОстаткиТоплива</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УТЗ_ПЛ_ПробегАвтотранспорта</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УТЗ_ПЛ_ТопливоКПоступлению</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УТЗ_ПЛ_ТопливоКСписанию</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

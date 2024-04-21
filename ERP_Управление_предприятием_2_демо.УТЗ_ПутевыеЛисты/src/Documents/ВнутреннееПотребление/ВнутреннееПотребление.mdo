@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c278758-5865-407d-83ff-8395e3f9d082" extendedConfigurationObject="b726b4a4-d691-4fa0-bef7-e6f1bd056cbf">
+  <producedTypes>
+    <objectType typeId="618a469e-a524-476e-b275-9848da962e9b" valueTypeId="75489a5c-0229-42de-aec7-94a555477f00"/>
+    <refType typeId="0e91e3f8-0ea4-478a-afe0-90466ccd6b0f" valueTypeId="7b012bea-5697-4708-8fd6-c42e42a4d27b"/>
+    <selectionType typeId="00c25485-e431-41e8-89e3-1a5465e51339" valueTypeId="7c656328-7260-4c94-84c0-ede6a84c9a15"/>
+    <listType typeId="8e6c479b-3d82-4ddf-8a70-d8c8f8a8f4ed" valueTypeId="03eefd67-a33d-4c66-9b2a-23e072d76139"/>
+    <managerType typeId="48500fc6-6378-45b4-aedb-86c5852fa175" valueTypeId="925b0420-b9f9-44c9-8e9d-c514638b46cc"/>
+  </producedTypes>
+  <name>ВнутреннееПотребление</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <registerRecords>InformationRegister.УТЗ_ПЛ_ЗаблокированныеДокументы</registerRecords>
+</mdclass:Document>

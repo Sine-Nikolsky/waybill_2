@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a86679f-69b0-4e0b-a64d-3834bbf9c83e">
+  <producedTypes>
+    <objectType typeId="968bf538-7c07-430d-b9be-e96d9f61d0d0" valueTypeId="6627b1fb-1eda-4c03-b5dd-586cb8d78279"/>
+    <refType typeId="15d14f9b-fae0-4e76-ab39-c96b38f9096d" valueTypeId="e0307cf1-0868-4877-8b6b-7f5b4c55c64c"/>
+    <selectionType typeId="4ce3b8d6-804e-49f3-9593-a795a196a3b4" valueTypeId="c7c18e2b-17ba-4365-b121-bee329386c36"/>
+    <listType typeId="872a15f5-3ad6-4c01-96ad-db2bf0341126" valueTypeId="d237b33b-0e6f-4083-ae45-286c62423fe7"/>
+    <managerType typeId="6935d182-6613-4d39-83f1-41cbb011f59e" valueTypeId="7c7b86d7-a809-4327-8bd5-1319870fd487"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_МаркиАвтотранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марки автотранспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УТЗ_ПЛ_МаркиАвтотранспорта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УТЗ_ПЛ_МаркиАвтотранспорта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

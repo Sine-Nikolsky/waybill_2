@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0eb5de25-b2ab-48c4-9ed3-eb434f193c6b">
+  <producedTypes>
+    <refType typeId="2943e95c-623b-494d-9925-e84df7c32bf3" valueTypeId="93d12b7f-a21e-4ebf-81a9-8b35fccd7ffa"/>
+    <listType typeId="211adf0f-f46a-47ae-a5ef-61e36e30e1c7" valueTypeId="37cf0327-efdb-4bee-8143-de7864945f66"/>
+    <managerType typeId="ff380daa-a593-4efb-b1c4-df6d8e037e85" valueTypeId="b3615a4d-e695-41fc-8e72-c6e3125738b8"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ВидыПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды путевых листов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="50df3391-bcc9-404d-951a-93ed99574026">
+    <name>Легковой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легковой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53ef8791-e6bd-41fc-95e8-709f07821caf">
+    <name>Грузовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba130e2f-2a6c-4dfa-b689-455cfb54f5e1">
+    <name>Строительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строительный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ad71588-c4e7-4cb6-ad50-ea982ec922b4">
+    <name>Специальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

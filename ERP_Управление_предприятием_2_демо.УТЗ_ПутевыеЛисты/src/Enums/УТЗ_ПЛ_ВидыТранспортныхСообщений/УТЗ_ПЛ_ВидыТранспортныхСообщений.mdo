@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14cce2ab-fbc1-4c5b-a28c-803f2d068c40">
+  <producedTypes>
+    <refType typeId="b39298fd-9da9-4914-9870-9e6b20c3491b" valueTypeId="a823c3c7-2545-42f1-9ed8-517d5fe9be6b"/>
+    <listType typeId="d9f37da3-4467-4bb6-a143-d6ff534bff40" valueTypeId="116b50e2-92e0-438f-af5a-b88032063bb6"/>
+    <managerType typeId="d6facac9-5671-462f-934d-366c0d386486" valueTypeId="02f27042-7fda-49ee-acf8-29802b61e14f"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_ВидыТранспортныхСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспортных сообщений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80cc823a-4049-43df-b01b-4040463c8ba5">
+    <name>Городское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Городское</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dacf69c-ae2a-46cd-8586-12a30e421eaf">
+    <name>Пригородное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пригородное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16731de7-f5e1-47bd-a524-31c4c21ad9db">
+    <name>Междугородное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Междугородное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e422f2ed-ab84-4510-a6ff-2221e89f6753">
+    <name>Международное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Международное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

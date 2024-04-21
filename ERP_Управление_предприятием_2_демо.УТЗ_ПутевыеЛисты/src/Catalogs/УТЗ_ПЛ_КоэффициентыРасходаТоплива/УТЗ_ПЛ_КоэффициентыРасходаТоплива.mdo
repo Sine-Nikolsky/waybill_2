@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ef5cb13-7519-45bc-bc28-c69112847a58">
+  <producedTypes>
+    <objectType typeId="73789350-c97d-484b-a4b6-fd1e5e531a14" valueTypeId="b99f8225-d9d2-4cf4-958a-db7886e1a2bb"/>
+    <refType typeId="73df270c-44b2-4efb-bf23-14232d4ad8de" valueTypeId="08930fde-93c2-41d2-acc0-66e9bf2ec56b"/>
+    <selectionType typeId="70c4896b-575a-43bf-b5a7-c9a6b6ec9f47" valueTypeId="5130ac49-87b8-4f52-94b1-68c75760af0b"/>
+    <listType typeId="e30118c7-46fc-49ae-8189-bfbdab215978" valueTypeId="31f64e35-021a-4e74-9465-215362503cff"/>
+    <managerType typeId="f9f8bd71-15ef-4b47-85e3-0b07a5b27e73" valueTypeId="1dd0527c-6a75-4776-98fb-ed061c38e604"/>
+  </producedTypes>
+  <name>УТЗ_ПЛ_КоэффициентыРасходаТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты расхода топлива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УТЗ_ПЛ_КоэффициентыРасходаТоплива.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УТЗ_ПЛ_КоэффициентыРасходаТоплива.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Коэффициент расхода ГСМ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Коэффициенты расхода ГСМ</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3b980aec-7b90-4617-b1be-fd0eefb5781f">
+    <name>ВидКоэффициента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид коэффициента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УТЗ_ПЛ_ВидыКоэффициентовРасходаГСМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
